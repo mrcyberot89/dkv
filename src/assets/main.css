@@ -1,9 +1,37 @@
 @import 'tailwindcss';
-@import '@fontsource/poller-one/400.css';   
 
 @layer components {
-   .btn-join {
+    .btn-join {
         @apply bg-[#516FFF] text-white text-[24px] py-[13px] px-[30px] rounded-4xl hover:bg-amber-400 transition duration-300 ease-in-out cursor-pointer hover:text-stone-900;
-    
+
     }
+
+    .poller-custom {
+        font-family: 'Pollercustom';
+    }
+
+    .lora-custom {
+        font-family: 'Loracustom';
+    }
+    .lora-italic {
+        font-family: 'Loraitalic';
+    }
+}
+
+@font-face {
+    font-family: 'Pollercustom';
+    src: url('./fonts/Poller_One/PollerOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-style: normal;
+    font-family: 'Loracustom';
+    src: url('./fonts/Lora/Lora-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-style: italic;
+    font-family: 'Loraitalic';
+    src: url('./fonts/Lora/Lora-Italic-VariableFont_wght.ttf') format('truetype');
 }

@@ -2,12 +2,12 @@
 import image2 from '../assets/image2.png'
 </script>
 <template>
-    <div class="grid grid-cols-2 h-1/2 w-full bg-[url('../assets/gray-bg2.jpg')] bg-cover">
+    <div class="grid grid-cols-1 md:grid-cols-2 h-1/2 w-full bg-[url('../assets/gray-bg2.jpg')] bg-cover">
         <div class=" flex flex-col justify-center items-center gap-y-12 pt-12 text-2xl font-semibold text-gray-700">
-            <p>Apa itu Ruang DKV Klaten ?</p>
-            <img :src="image2" alt="Image 2" class="">
+            <p class="lora-italic">Apa itu Ruang DKV Klaten ?</p>
+            <img :src="image2" alt="Image 2" class="h-60">
         </div>
-        <div class="py-12 px-12 text-md text-gray-700">
+        <div class="py-12 px-12 text-sm md:text-md text-gray-700 lora-custom">
             <p class="py-4">Salah satu bagian dari ekosistem Ekonomi Kreatif (Ekraf) di Klaten, khususnya pada subsektor
                 Desain
                 Komunikasi Visual (DKV). </p>

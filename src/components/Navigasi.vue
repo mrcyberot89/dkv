@@ -20,7 +20,7 @@ const navBar = [
 
 </script>
 <template>
-    <div class=" h-16 w-full flex justify-between items-center px-3 ">
+    <div class=" h-16 w-full md:flex justify-between items-center px-3 hidden">
         <div class="">
             <img :src="logo" alt="">
         </div>

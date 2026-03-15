@@ -6,16 +6,22 @@ import Tiktok from '@/assets/tiktok.png'
 </script>
 
 <template>
-    <div class="xl:h-80 lg:h-80 w-full flex justify-center my-12">
-        <div class="bg-[url('../assets/gray-bg3.jpg')] bg-cover rounded-3xl  w-[80%] h-full  lg:py-12 lg:px-12 xl:py-12 xl:px-12">
-            <div class="grid grid-rows-3 rounded-3xl justify-center items-center gap-y-12 h-full">
+    <div class="xl:h-80 lg:h-80 w-full flex justify-center md:my-12 my-20  ">
+        <div
+            class="bg-[url('../assets/gray-bg3.jpg')] bg-cover rounded-3xl w-full h-full md:w-[80%] md:h-full   px-12 py-0 lg:py-12 lg:px-12 xl:py-12 xl:px-12">
+            <div class="grid grid-rows-4 rounded-3xl justify-center items-center  h-full">
+                <div class="flex flex-col justify-center">
+                    <h2 class="text-xl lg:text-2xl text-gray-700 lora-italic font-bold text-center">Ikuti Kami di Media
+                        Sosial</h2>
+                </div>
                 <div>
-                    <h2 class="text-3xl lg:text-2xl text-gray-700 poller text-center">Ikuti Kami di Media Sosial</h2>
-                    <p class="text-lg text-gray-600 text-center">Dapatkan update terbaru, inspirasi desain, dan
+                    <p class="text-sm md:text-lg text-gray-600 text-center lora-custom">Dapatkan update terbaru, inspirasi desain,
+                        dan
                         informasi acara menarik dari Ruang DKV Klaten dengan mengikuti kami di media sosial.</p>
+
                 </div>
                 <div class="flex justify-center items-center">
-                    <button class="btn-join poller text-lg">Join Comunity</button>
+                    <button class="btn-join  font-semibold text-sm md:text-lg poller-custom">Join Comunity</button>
                 </div>
                 <div class="flex justify-center items-center gap-x-6">
                     <p class=""><img :src="Facebook" alt="dsds"></p>
