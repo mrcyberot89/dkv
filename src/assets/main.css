@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@import '@fontsource/poller-one/400.css';   
+
+@layer components {
+   .btn-join {
+        @apply bg-[#516FFF] text-white text-[24px] py-[13px] px-[30px] rounded-4xl hover:bg-amber-400 transition duration-300 ease-in-out cursor-pointer hover:text-stone-900;
+    
+    }
+}
