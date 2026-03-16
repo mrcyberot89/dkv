@@ -33,7 +33,7 @@ onMounted(() => {
              // // //markers: true,
             start: 'top 10%',
             end: 'bottom 91%',
-            pin: container.value
+            //pin: container.value
         }
     });
     tl.fromTo(textOne.value,{
