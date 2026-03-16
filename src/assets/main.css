@@ -35,3 +35,6 @@
     font-family: 'Loraitalic';
     src: url('./fonts/Lora/Lora-Italic-VariableFont_wght.ttf') format('truetype');
 }
+html {
+  scroll-behavior: smooth;
+}   

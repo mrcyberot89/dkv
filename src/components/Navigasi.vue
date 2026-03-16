@@ -8,6 +8,8 @@ import crossMenu from '@/assets/cross.png'
 const menuNavbar = ref(null);
 const hamburgerSatu = ref(null);
 const hamburgerDua = ref(null);
+
+
 const menuOpen = () => {
     gsap.fromTo(menuNavbar.value, {
         yPercent: -100
@@ -50,13 +52,18 @@ onMounted(() => {
         yPercent: 0
     },
         {
-            yPercent: -100
+            yPercent: -100,
+            duration: 0.2,
         }
     ),
         gsap.to(hamburgerSatu.value, {
             display: 'block'
-        })
-})
+        });
+},
+
+
+
+)
 
 
 const navBar = [
@@ -65,12 +72,12 @@ const navBar = [
         link: '#'
     },
     {
-        name: 'Visi Misi',
-        link: '#'
+        name: 'About',
+        link: '#about'
     },
     {
         name: 'ContactUs',
-        link: '#'
+        link: '#joinkami'
     }
 ]
 
@@ -85,12 +92,13 @@ const navBar = [
             <img ref="hamburgerDua" :src="crossMenu" @click="menuClose" alt=""
                 class="h-10 lg:hidden md:hidden absolute z-10 hidden">
         </div>
-        <div ref="menuNavbar" class="w-full p-6 bg-white md:hidden lg:hidden ">
-            <div class=" md:h-16 w-full md:flex md:justify-between md:items-center bg-white   h-auto px-3">
+        <div ref="menuNavbar" class="w-full p-6 bg-white shadow shadow-gray-500 md:hidden lg:hidden rounded-2xl ">
+            <div class=" md:h-16 w-full md:flex md:justify-between md:items-center h-auto px-3">
                 <div class="flex justify-center">
                     <img :src="logo" alt="">
                 </div>
-                <div class="md:flex md:justify-end md:text-lg md:gap-5 flex flex-col justify-center items-center gap-y-6 font-bold py-6">
+                <div
+                    class="md:flex md:justify-end md:text-lg md:gap-5 flex flex-col justify-center items-center gap-y-6 font-bold py-6">
                     <p v-for="item in navBar" :key="item.name">
                         <a :href="item.link">{{ item.name }}</a>
                     </p>

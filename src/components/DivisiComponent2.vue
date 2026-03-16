@@ -5,7 +5,7 @@ import sosmed from '../assets/sosmed.png'
 </script>
 
 <template>
-    <div class="py-12 h-auto w-full">
+    <div  class="py-12 h-auto w-full">
         <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 md:grid lg:grid lg:grid-cols-3 lg:grid-rows-1  md:justify-center justify-center items-center gap-y-12    ">
             <div class="flex flex-col justify-center items-center gap-y-10">
                 <p class="text-2xl text-gray-700 font-semibold lora-custom">Illustrasi</p>
