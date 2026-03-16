@@ -10,7 +10,7 @@ import DivisiComponent2 from './DivisiComponent2.vue';
 
 <template>
     <div class="relative">
-        <div class="absolute z-10 w-full pl-8 pr-12">
+        <div class="absolute z-10 w-full md:pl-8 md:pr-12 lg:px-4">
             <Navigasi />
         </div>
         <HeaderComponent/>

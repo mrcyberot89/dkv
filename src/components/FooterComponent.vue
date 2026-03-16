@@ -9,7 +9,7 @@ import Tiktok from '@/assets/tiktok.png'
     <div class="xl:h-80 lg:h-80 w-full flex justify-center md:my-12 my-20  ">
         <div
             class="bg-[url('../assets/gray-bg3.jpg')] bg-cover rounded-3xl w-full h-full md:w-[80%] md:h-full   px-12 py-0 lg:py-12 lg:px-12 xl:py-12 xl:px-12">
-            <div class="grid grid-rows-4 rounded-3xl justify-center items-center  h-full">
+            <div class="grid grid-rows-4 rounded-3xl justify-center items-center  h-full md:gap-y-12">
                 <div class="flex flex-col justify-center">
                     <h2 class="text-xl lg:text-2xl text-gray-700 lora-italic font-bold text-center">Ikuti Kami di Media
                         Sosial</h2>
