@@ -115,6 +115,9 @@ onMounted(() => {
 
 <template>
     <div class="py-12 h-auto w-full">
+        <div class="flex justify-center items-center mb-20 text-2xl font-semibold lora-custom text-gray-700">
+            <p>3 Divisi Ruang DKV</p>
+        </div>
         <div
             class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 md:grid lg:grid lg:grid-cols-3 lg:grid-rows-1  md:justify-center justify-center items-center gap-y-12    ">
             <div ref="containerDivisione" class="flex flex-col justify-center items-center gap-y-10">

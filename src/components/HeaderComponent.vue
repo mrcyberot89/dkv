@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue';
-import imageHeader from '../assets/Frame21.png'
+import imageHeader from '../assets/Frame21.png';
+import logo from '@/assets/logo3.png';
 import gsap from 'gsap';
 
 //ref untuk animasi
@@ -38,6 +39,9 @@ onMounted(() => {
 </script>
 <template>
     <div class="w-full h-screen relative z-1 bg-[url('../assets/gray-bg.jpg')] bg-cover bg-center md:px-20 py-24">
+        <div class="absolute top-0 right-0 md:hidden lg:hidden">
+            <img :src="logo" alt="" class="object-cover h-14">
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 h-full md:h-[90%] w-full container mx-0 px-0 md:px-0   ">
             <div class="flex flex-col justify-center items-start md:items-start mx-12 md:mx-0 gap-12 md:px-0">
                 <h1 ref="textOne" class="lg:text-4xl md:text-2xl text-gray-700 lora-custom text-xl font-bold ">Mari
