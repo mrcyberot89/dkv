@@ -32,7 +32,9 @@ onMounted(() => {
     }, {
         opacity: 1, scale: 1, ease: 'power1.inOut', duration: 1
     });
-})
+});
+
+
 
 
 
