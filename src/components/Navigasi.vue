@@ -85,7 +85,7 @@ const navBar = [
 </script>
 <template>
     <!--mobile view-->
-    <div class="fixed top-0 z-10 w-full  md:hidden lg:hidden">
+    <div class="fixed top-0 z-10 w-full  md:hidden lg:h5idden">
         <div>
             <img ref="hamburgerSatu" :src="sideMenu" @click="menuOpen" alt=""
                 class="h-10 lg:hidden md:hidden hidden absolute z-10">
