@@ -15,18 +15,27 @@ import Tiktok from '@/assets/tiktok.png'
                         Sosial</h2>
                 </div>
                 <div>
-                    <p class="text-sm md:text-lg text-gray-600 text-center lora-custom">Dapatkan update terbaru, inspirasi desain,
+                    <p class="text-sm md:text-lg text-gray-600 text-center lora-custom">Dapatkan update terbaru,
+                        inspirasi desain,
                         dan
                         informasi acara menarik dari Ruang DKV Klaten dengan mengikuti kami di media sosial.</p>
 
                 </div>
                 <div class="flex justify-center items-center">
-                    <button class="btn-join  font-semibold text-sm md:text-lg poller-custom">Join Comunity</button>
+                    <a href="https://chat.whatsapp.com/CGesZ4Ja00z0cdzpg4Vm7g?mode=wwt">
+                        <button class="btn-join  font-semibold text-sm md:text-lg poller-custom">Join Comunity</button>
+                    </a>
                 </div>
                 <div class="flex justify-center items-center gap-x-6">
-                    <p class=""><img :src="Facebook" alt="dsds"></p>
-                    <p class=""><img :src="Instagram" alt="dsds"></p>
-                    <p class=""><img :src="Tiktok" alt="dsds"></p>
+                    <a href="https://www.facebook.com/share/1DK7sPV2UF/">
+                        <p class=""><img :src="Facebook" alt="dsds"></p>
+                    </a>
+                    <a href="https://www.instagram.com/ruangdkv_klaten?igsh=OWJ2NGE0N2N3Nnh1">
+                        <p class=""><img :src="Instagram" alt="dsds"></p>
+                    </a>
+                    <a href="https://www.tiktok.com/@ruangdkv_klaten?_r=1&_t=ZS-94wm2tpAMc8">
+                        <p class=""><img :src="Tiktok" alt="dsds"></p>
+                    </a>
                 </div>
             </div>
         </div>

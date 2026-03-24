@@ -53,7 +53,9 @@ onMounted(() => {
                     Visual
                     (DKV) adalah cabang ilmu desain yang memadukan
                     seni dan strategi komunikasi untuk menyampaikan pesan secara efektif melalui media visual.</p>
-                <button ref="buttonOne" class="btn-join md:text-md text-sm poller-custom ">Join Comunity</button>
+                <a href="https://chat.whatsapp.com/CGesZ4Ja00z0cdzpg4Vm7g?mode=wwt">
+                    <button ref="buttonOne" class="btn-join md:text-md text-sm poller-custom ">Join Comunity</button>
+                </a>
             </div>
             <div class="flex justify-center md:justify-end items-center  ">
                 <img ref="vektorOne" :src="imageHeader" alt="Image Header" class="h-70 md:h-100">
