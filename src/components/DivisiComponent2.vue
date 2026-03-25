@@ -34,7 +34,7 @@ onMounted(() => {
         opacity: 0,
     }, {
         opacity: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
     tl.fromTo(gambarOne.value, {
         opacity: 0,
@@ -42,13 +42,13 @@ onMounted(() => {
     }, {
         opacity: 1,
         scale: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
     tl.fromTo(textOne.value, {
         opacity: 0,
     }, {
         opacity: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
     //animasi 2
     const tlTwo = gsap.timeline({
@@ -63,7 +63,7 @@ onMounted(() => {
         opacity: 0,
     }, {
         opacity: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
     tlTwo.fromTo(gambarTwo.value, {
         opacity: 0,
@@ -71,13 +71,13 @@ onMounted(() => {
     }, {
         opacity: 1,
         scale: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
     tlTwo.fromTo(textTwo.value, {
         opacity: 0,
     }, {
         opacity: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
     //animasi 3
     const tlThree = gsap.timeline({
@@ -92,7 +92,7 @@ onMounted(() => {
         opacity: 0,
     }, {
         opacity: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
     tlThree.fromTo(gambarThree.value, {
         opacity: 0,
@@ -100,13 +100,13 @@ onMounted(() => {
     }, {
         opacity: 1,
         scale: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
     tlThree.fromTo(textThree.value, {
         opacity: 0,
     }, {
         opacity: 1,
-        duration: 0.5,
+        duration: 0.3,
     });
 });
 
