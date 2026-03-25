@@ -24,7 +24,7 @@ onMounted(() => {
     //animasi 1
     const tl = gsap.timeline({
         scrollTrigger: {
-            markers: true,
+            //markers: true,
             trigger: containerDivisione.value,
             start: 'top 20%',
             end: 'bottom top'
