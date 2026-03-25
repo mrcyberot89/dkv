@@ -24,9 +24,9 @@ onMounted(() => {
     //animasi 1
     const tl = gsap.timeline({
         scrollTrigger: {
-            //markers: true,
+            markers: true,
             trigger: containerDivisione.value,
-            start: 'top 10%',
+            start: 'top 20%',
             end: 'bottom top'
         }
     });
@@ -55,7 +55,7 @@ onMounted(() => {
         scrollTrigger: {
             //markers: true,
             trigger: containerDivisitwo.value,
-            start: 'top 10%',
+            start: 'top 20%',
             end: 'bottom top'
         }
     });
@@ -84,7 +84,7 @@ onMounted(() => {
         scrollTrigger: {
             //markers: true,
             trigger: containerDivisithree.value,
-            start: 'top 10%',
+            start: 'top 20%',
             end: 'bottom top'
         }
     });
