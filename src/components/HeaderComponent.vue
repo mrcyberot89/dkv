@@ -20,17 +20,17 @@ onMounted(() => {
     tl.fromTo(textTwo.value, {
         opacity: 0
     }, {
-        opacity: 1, duration: 0.5
+        opacity: 1, duration: 0.5, ease: 'power3.in'
     });
     tl.fromTo(buttonOne.value, {
         opacity: 0, scale: 0
     }, {
-        opacity: 1, duration: 1, ease: 'power3.in', scale: 1
+        opacity: 1, duration: 0.5, ease: 'power3.in', scale: 1
     });
     tl.fromTo(vektorOne.value, {
         opacity: 0, scale: 0
     }, {
-        opacity: 1, scale: 1, ease: 'power1.inOut', duration: 1
+        opacity: 1, scale: 1, ease: 'power3.in', duration: 0.5
     });
 });
 
