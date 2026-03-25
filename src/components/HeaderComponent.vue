@@ -23,9 +23,9 @@ onMounted(() => {
         opacity: 1, duration: 0.5
     });
     tl.fromTo(buttonOne.value, {
-        opacity: 0,
+        opacity: 0, scale: 0
     }, {
-        opacity: 1, duration: 0.7, ease: 'power1.inOut'
+        opacity: 1, duration: 1, ease: 'power3.in', scale: 1
     });
     tl.fromTo(vektorOne.value, {
         opacity: 0, scale: 0
