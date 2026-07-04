@@ -120,7 +120,7 @@ onMounted(() => {
         </div>
         <div
             class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 md:grid lg:grid lg:grid-cols-3 lg:grid-rows-1  md:justify-center justify-center items-center gap-y-12    ">
-            <div ref="containerDivisione" class="flex flex-col justify-center items-center gap-y-10">
+            <div ref="containerDivisione" class="flex flex-col justify-center items-center gap-y-10 lora-custom">
                 <p ref="divisiOne" class="text-2xl text-gray-700 font-semibold lora-custom">Illustrasi</p>
                 <img ref="gambarOne" :src="illustrasi" alt="" class="w-100 h-60">
                 <p ref="textOne" class="text-gray-600 text-center mx-12 mt-4 text-sm md:text-lg">Fokus pada pembuatan
