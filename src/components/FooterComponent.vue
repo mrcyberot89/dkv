@@ -23,7 +23,7 @@ import Tiktok from '@/assets/tiktok.png'
                 </div>
                 <div class="flex justify-center items-center">
                     <a href="https://chat.whatsapp.com/CGesZ4Ja00z0cdzpg4Vm7g?mode=wwt">
-                        <button class="btn-join  font-semibold text-sm md:text-lg poller-custom">Join Comunity</button>
+                        <button class="btn-join  font-semibold text-sm md:text-lg poller-custom">Join Community</button>
                     </a>
                 </div>
                 <div class="flex justify-center items-center gap-x-6">

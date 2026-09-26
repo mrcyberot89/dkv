@@ -54,7 +54,7 @@ onMounted(() => {
                     (DKV) adalah cabang ilmu desain yang memadukan
                     seni dan strategi komunikasi untuk menyampaikan pesan secara efektif melalui media visual.</p>
                 <a href="https://chat.whatsapp.com/CGesZ4Ja00z0cdzpg4Vm7g?mode=wwt">
-                    <button ref="buttonOne" class="btn-join md:text-md text-sm poller-custom ">Join Comunity</button>
+                    <button ref="buttonOne" class="btn-join md:text-md text-sm poller-custom ">Join Community</button>
                 </a>
             </div>
             <div class="flex justify-center md:justify-end items-center  ">

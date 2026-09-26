@@ -76,7 +76,7 @@ const navBar = [
         link: '#about'
     },
     {
-        name: 'ContactUs',
+        name: 'Contact Us',
         link: '#joinkami'
     }
 ]
